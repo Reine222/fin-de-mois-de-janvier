@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>mon premier formulaire en html</title>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+			<style>
+             body{
+      background-color: #ffebee;
+     }
+     jumbotron{
+       background-color: #ad1457s;
+     }
+    
+      input[type="reset"]{
+      background-color:red;
+     }
+     input[type="submit"]{
+      background-color: green;
+     }
+            </style>
+        </head>
+        <body>
+             <div class="card text-center">
+               <div class="jumbotron">
+                <h1> Voyageurs du Monde</h1>
+                </di>
+            </div>
+             <nav class="navbar navbar-inverse">
+               <div class="container-fluid">
+              <div class="navbar-header">
+             <a class="navbar-brand" href="#">MENU</a>
+            </div>
+             <ul class="nav navbar-nav">
+               <li><a href="acc.html">ACCEUIL</a></li>
+               <li><a href="reservation.html">RESERVATION</a></li>
+                <li  class="active"><a href="annuler.html">ANNULER MA RESERVATION</a></li>
+                <li><a href="galerie.html">GALERIE</a></li>
+               </ul>
+              </div>
+           </nav>
+            <center>
+                <h1><u>FORMULAIRE DE VERIFICATION DE VOS DONNEES </u></h1>
+              <form method="post" action="annul.html">
+                <table>
+                    <tr>
+                        <td>nom* : </td> <td><input type="text" name="nom" required=""/></td>
+                    </tr>
+                    <tr>
+                        <td>prenoms* :</td> <td><input type="text" name="prenoms" required=""/></td>
+                    </tr>
+                    <tr>
+                        <td>numero de telephone* :</td> <td><input type="tel" name="numero de telephone" required="" placeholder="Ex: 225 xx xx xx xx" /></td>
+                    </tr>
+                    <tr>
+                        <td>sexe* :</td> <td>
+                            <select name="sexe" required="">
+                                <option></option>
+                                <option>homme</option>
+                                <option>femme</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>date de naissance :</td> <td><input type="date" name="date de naissance" placeholder="Ex: 01/01/0000"/></td>
+                    </tr>
+					<tr>
+					<td>mot de passe* :</td><td><input type="password" name="mot_de_passe" required=""/></td>
+					</tr>
+					<tr>
+                    <tr>
+                        <td><input class="annuler" type="reset" value="annuler"/></td> <td><input class="valider" type="submit" value="valider"/></td>
+                    </tr>
+                </table>
+               </form>
+             </center>
+            <div class="card text-center">
+<br><br><br><br><br><br><br><div class="card-header">
+CONTACTEZ-NOUS
+</div><br>
+<div class="card-body">
+<h5 class="card-title">35ème rue du baron 255 Abidjan</h5>
+<p class="card-text">Tel:+253 25 36 96 85</p>
+<a href="#" class="btn btn-primary btn-responsive">faceboock</a><span style="color:orange">...</span>
+<a href="#" class="btn btn-primary btn-responsive">Twitter</a><span style="color:orange">...</span>
+<a href="#" class="btn btn-primary btn-responsive">Whatsapp</a>
+</div><br><br>
+<div class="card-footer text-muted">
+@135voyageurs.du.monde.
+</div>
+</div>
+        </body>
+    </html>

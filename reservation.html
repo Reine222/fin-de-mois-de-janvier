@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>formulaire d'inscription</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+       body{
+      background-color: #ffebee;
+     }
+     jumbotron{
+       background-color: #ad1457s;
+     }
+     
+     input[type="reset"]{
+      background-color:red;
+     }
+     input[type="submit"]{
+      background-color: green;
+     }
+    </style>
+    </head>
+    <body>
+       <div class="card text-center">
+               <div class="jumbotron">
+                 <h1> Voyageurs du Monde</h1>
+                </di>
+            </div>
+             <nav class="navbar navbar-inverse">
+               <div class="container-fluid">
+              <div class="navbar-header">
+             <a class="navbar-brand" href="#">MENU</a>
+            </div>
+             <ul class="nav navbar-nav">
+               <li ><a href="acc.html">ACCEUIL</a></li>
+               <li class="active"><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="annuler.html">ANNULER MA RESERVATION</a></li>
+                <li><a href="galerie.html">GALERIE</a></li>
+               </ul>
+              </div>
+           </nav>
+      <center>
+      <h1><u>FORMULAIRE DE RESERVATION </u></h1>
+      <form methode="post" action="felicitation.html">
+      <table>
+      <tr>
+      <td>Nom*:</td><td><input type="text" name="nom" required=""/></td>
+      </tr>
+      <tr>
+      <td>Prenoms:</td><td><input type="text" name="prenom" /></td>
+      </tr>
+      <tr>
+      <td>Age*:</td><td><input type="number" name="age" required=""/></td>
+      </tr>
+      <tr>
+      <td>Tel*:</td><td><input type="number" name="tel" required="" placeholder="+225 XX XX XX XX"/></td>
+      </tr>
+      <tr>
+      <td>Email*:</td><td><input type="email" name="email" required="" placeholder="aaaaaaaa@gmail.com"/></td>
+      </tr>
+      <tr>
+      <td>Sexe*:</td>
+      <td>
+      <label for="sexe1">Homme</label><input type="radio" name="sexe" value="Homme" required=""/>
+      <label for="sexe2">Femme</label><input type="radio" name="sexe" value="Femme" required=""/>
+      </td>
+      </tr>
+      <tr>
+      <td>séjours* :</td>
+                            <td>
+                                <select name="sejour" required="">
+                                    <option></option>
+                                    <option>5 jours au plus</option>
+                                    <option>une semaine</option>
+                                    <option>3 semaines au plus</option>
+                                    <option>un mois</option>
+                                    <option>plus d'un mois</option>
+                                </select>
+                            </td>
+      </tr>
+	  <tr>
+	  <td>nombres de personne* :</td>
+                            <td>
+                                <select name="personne" required="">
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>plus de 2</option>
+                                </select>
+                            </td>
+	  </tr>
+	  <tr>
+	  <td>nombres de chambre* :</td>
+                            <td>
+                                <select name="chambre" required="">
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>plus de 2</option>
+                                </select>
+                            </td>
+	  </tr>
+      <tr>
+      <td>statut*:</td>
+	                     <td>
+	                            <select name="statut" required="">
+                                    <option></option>
+                                    <option>modeste</option>
+                                    <option>2 etoiles</option>
+                                    <option>3 etoiles</option>
+                                    <option>5 etoiles</option>
+                                </select>
+	                     </td>
+      </tr>
+      <tr>
+      <td>Mot de Passe*:</td><td><input type="password" name="motdepasse" required="" /></td>
+      </tr>
+      <tr>
+      <td>Confirmer le Mot de Passe:</td><td><input type="password" name="confirler"/></td>
+      </tr>
+      <tr>
+     <td><a href="acc.html"><input type="reset" value="annuler"/></a></td><td><a href="felicitation.html"><input type="submit"value="reserver"/></a></td>
+      </tr>
+      </table>
+      </form>
+      </center>
+  <br><br><br><br><div class="card text-center">
+<div class="card-header">
+CONTACTEZ-NOUS
+</div><br>
+<div class="card-body">
+<h5 class="card-title">35ème rue du baron 255 Abidjan</h5>
+<p class="card-text">Tel:+253 25 36 96 85</p>
+<a href="#" class="btn btn-primary btn-responsive">faceboock</a><span style="color:orange">...</span>
+<a href="#" class="btn btn-primary btn-responsive">Twitter</a><span style="color:orange">...</span>
+<a href="#" class="btn btn-primary btn-responsive">Whatsapp</a>
+</div><br><br>
+<div class="card-footer text-muted">
+@135voyageurs.du.monde.
+</div>
+</div>
+    </body>
+  </html>
+	  
